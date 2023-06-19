@@ -19,7 +19,7 @@ def show_feature_relations(x_values,y_values):
     plt.show()
 
 diabetes_x,diabetes_y=datasets.load_diabetes(return_X_y=True,as_frame=True)
-#print(diabetes_x.shape)
+print(diabetes_x.shape)
 
 #show_feature_relations(diabetes_x,diabetes_y)
 
